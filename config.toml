@@ -1,0 +1,8 @@
+baseurl          = "/"
+title           = "(title)"
+languageCode    = "en-uk"
+paginate        = "10"                                                                 # Number of posts per page
+theme           = "coreui-hugo"
+
+[Params]
+    ghrepo      = "(repo)"

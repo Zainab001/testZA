@@ -1,0 +1,23 @@
+{{ define "content" }}
+    <br/>
+    <h1>{{ if isset .Params "image"}}
+        <div class="avatar avatar-lg">
+            <img class="img-avatar" src="{{.Params.image}}" />
+        </div>
+        {{ end }}
+        {{ .Params.title}}</h1>
+    <b>Applied to: </b> {{ .Params.applied_to}}
+    <br/>
+    <a href="{{ .Params.linkedin}}" target="_blank">LinkedIn</a>
+    <hr>
+    <br/>
+
+    {{ .Content }}
+
+    {{ with .Site.GetPage "page" "_templates/homepage" }}
+        {{ .Content }}
+    {{ end }}
+
+    {{ partial "widgets/edit-link.html" . }}
+{{ end}}
+
