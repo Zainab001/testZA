@@ -5,9 +5,9 @@ description: will be shown on the home page. use to explain how it works and lin
 
 ## Instructions
 
-This website contains an improved version of an CV (customised to best represent the candidate's experience, skills and values
+This website contains a summarised CV, customised to best represent the candidate's experience, skills and values.
 
-There are 6 key metrics that we use to evaluate the candidate:
+There are 6 key metrics that we use to evaluate each candidate:
 
  - [Technical](/qualities/technical)
  - [Security](/qualities/security)
