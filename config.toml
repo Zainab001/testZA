@@ -5,4 +5,4 @@ paginate        = "10"                                                          
 theme           = "coreui-hugo"
 
 [Params]
-    ghrepo      = "(repo)"
+    ghrepo      = "https://github.com/cx-candidates/master"
