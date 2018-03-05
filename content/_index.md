@@ -1,8 +1,8 @@
 ---
-title      : (name)
-type       : candidate
-applied_to : (role)
-linkedin   : (link)
+title      : Zainab
+type       : Test
+applied_to : Test
+linkedin   : http://....linkenid
 image      : (link)
 layout     : homepage
 ---
